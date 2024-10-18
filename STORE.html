@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 project</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<style type="text/css">
+		
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+
+		.navbar {
+			display: flex;
+			background-image: url(https://i.pinimg.com/736x/d4/86/46/d486462ab6d584ba22128311268214fb.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+
+		}
+
+		.hr1 {
+			height: 2px;
+			color: black;
+		}
+		
+
+
+		.Logo {
+			width: 10%;
+			align-items: left;
+			border: 5px solid gray;
+			border-radius: 5px;
+		}
+
+		.c1 {
+			text-align: center;
+			margin: auto;
+			padding: auto;
+			font-size: 50px;
+			font-family: Spectral SC;
+			background-image:url(https://images.unsplash.com/photo-1531824475211-72594993ce2a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29vZHxlbnwwfHwwfHx8MA%3D%3D) ;
+			background-size: cover;
+			border: 5px solid white;
+			border-radius: 10px;
+		}
+
+
+		
+		.c2 {
+			text-align: center;
+			margin: auto;
+			padding: auto;
+			font-family: Spectral SC;
+			font-size: 50px;
+			background-image:url(https://images.unsplash.com/photo-1531824475211-72594993ce2a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29vZHxlbnwwfHwwfHx8MA%3D%3D) ;
+			background-size: cover;
+			border: 5px solid white;
+			border-radius: 10px;
+		}
+
+		.c3 {
+			text-align: right;
+			margin: auto;
+			padding: auto;
+			font-family: Spectral SC;
+			font-size: 50px;
+			background-image:url(https://images.unsplash.com/photo-1531824475211-72594993ce2a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29vZHxlbnwwfHwwfHx8MA%3D%3D) ;
+			background-size: cover;
+			border: 5px solid white;
+			border-radius: 10px;
+		}
+
+		.c4 {
+			text-align: right;
+			margin: auto;
+			padding: auto;
+			font-family: Spectral SC;
+			font-size: 50px;
+			background-image:url(https://images.unsplash.com/photo-1531824475211-72594993ce2a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29vZHxlbnwwfHwwfHx8MA%3D%3D) ;
+			background-size: cover;
+			border: 5px solid white;
+			border-radius: 10px;
+		}
+
+		.navbar div.c1:hover {
+			opacity: 0.5;
+			filter: blur(1px);
+		}
+
+		.navbar div.c2:hover {
+			opacity: 0.5;
+			filter: blur(1px);
+		}
+
+		.navbar div.c3:hover {
+			opacity: 0.5;
+			filter: blur(1px);
+		}
+
+		.navbar div.c4:hover {
+			opacity: 0.5;
+			filter: blur(1px);
+		}
+
+		.a1 {
+			color: black;
+		}
+
+		.a2 {
+			color: black;
+		}
+
+		.a3 {
+			color: black;
+		}
+
+		.a4 {
+			color: black;
+		}
+
+		.hero {
+			background-image: url(https://thumbs.dreamstime.com/b/old-book-flying-letters-magic-light-background-bookshelf-library-ancient-books-as-symbol-knowledge-history-218640948.jpg);
+			justify-content: space-evenly;
+			display: flex;
+			padding: 70px;
+		}
+
+		.hero1 {
+			padding: 40px;
+			margin: auto;
+			background-color: white;
+			border: 3px solid black;
+			border-radius: 10px;
+		}
+
+		.hero2 {
+			padding: 40px;
+			margin: auto;
+			background-color: white;
+			border: 3px solid black;
+			border-radius: 10px;
+		}
+
+		.hero3 {
+			padding: 40px;
+			margin: auto;
+			background-color: white;
+			border: 3px solid black;
+			border-radius: 10px;
+		}
+
+		.hero4 {
+			padding: 40px;
+			margin: auto;
+			background-color: white;
+			border: 3px solid black;
+			border-radius: 10px;
+		}
+
+		.hero5 {
+			padding: 40px;
+			margin: auto;
+			background-color: white;
+			border: 3px solid black;
+			border-radius: 10px;
+		}		
+
+		.bestseller {
+			background-image: url(https://media.npr.org/assets/img/2023/12/29/gettyimages-925364372-edit_custom-15f489a3ffaa6163f026535ac4705763d4ccb977.jpg);
+		}
+
+		.headercol {
+			background-color: beige;
+			padding: 80px;
+			border: 2px solid white;
+		}
+
+		.header1 {
+			text-align: center;
+		}
+
+/*		.bestsellercolumns {
+			display: flex;
+			padding: 70px;
+		}*/
+
+/*		.column-left {
+			background-color: whitesmoke;
+			padding:0;
+			justify-content: space-evenly;*/
+
+
+/*		}*/
+/*
+		.Col1 {
+			width: 50%;
+			border: 10px solid black;
+			margin: 0;*/
+			
+/*		}*/
+
+		.bestseller1 {			
+			display: flex;
+			padding: 70px;
+			justify-content: space-evenly;
+			margin: auto;
+		}
+/*
+		.Col2 {
+			width: 50%;
+		
+		}*/
+
+		.Caser {
+			background-color: blanchedalmond;
+
+			padding: 20px;
+			border: 5px solid;
+			border-radius: 20px;
+		}
+
+		.Caser2 {
+			background-color: blanchedalmond;
+	
+			padding: 20px;
+			border: 5px solid;
+			border-radius: 20px;
+		}
+
+		.Caser3 {
+			background-color: blanchedalmond;
+
+			padding: 20px;
+			border: 5px solid;
+			border-radius: 20px;
+		}
+
+		.bestseller1 div.Caser:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.bestseller1 div.Caser2:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.bestseller1 div.Caser3:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.Price {
+			font-family: Spectral SC;
+			background-color: skyblue;
+			margin: auto;
+			padding: auto;
+			border: 2px solid;
+		}
+
+		.Price1 {
+			color: black;
+		}
+
+		.img1 {
+			width: 100px;
+		}
+
+		.img2 {
+			width: 100px;
+		}
+
+		.img3 {
+			width: 100px;
+		}
+
+		.prod {
+			background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ30XNLNFwFCfLBg1kGamiuLWj-zVtQBbUC4Q&s);
+			background-size: cover;
+		}
+
+		.prodcut {
+			background-color: bisque;
+			padding: 20px;
+		}
+
+		.She-knows {
+			display: flex;
+			padding: 70px;
+			justify-content: space-evenly;
+			margin: auto;
+		}
+
+		.Shino {
+			background-color: mediumseagreen;
+	
+			padding: 10px;
+			border: 2px solid;
+			border-radius: 10px;
+		}
+
+		.Shino2 {
+			background-color: mediumseagreen;
+	
+			padding: 10px;
+			border: 2px solid;
+			border-radius: 10px;
+		}
+
+		.Shino3 {
+			background-color: mediumseagreen;
+	
+			padding: 10px;
+			border: 2px solid;
+			border-radius: 10px;
+		}
+
+		.Shino4 {
+			background-color: mediumseagreen;
+	
+			padding: 10px;
+			border: 2px solid;
+			border-radius: 10px;
+		}
+
+		.Hito {
+			background-color: mediumseagreen;
+	
+			padding: 10px;
+			border: 2px solid;
+			border-radius: 10px;
+		}
+
+		.Hito2 {
+			background-color: mediumseagreen;
+	
+			padding: 10px;
+			border: 2px solid;
+			border-radius: 10px;
+		}
+
+		.Hito3 {
+			background-color: mediumseagreen;
+	
+			padding: 10px;
+			border: 2px solid;
+			border-radius: 10px;
+		}		
+
+		.Hito4 {
+			background-color: mediumseagreen;
+	
+			padding: 10px;
+			border: 2px solid;
+			border-radius: 10px;
+		}
+
+		.Hito5 {
+			background-color: mediumseagreen;
+	
+			padding: 10px;
+			border: 2px solid;
+			border-radius: 10px;
+		}
+
+		.prodbar {
+			font-family: Spectral SC;
+			background-color: skyblue;
+			margin: auto;
+			padding: auto;
+			border: 2px solid;
+		}
+
+		.prods {
+			width: 100px;
+			padding: 10px;
+			border: 3px solid black;
+			border-radius: 10px;
+			background-color: peachpuff;
+		}
+		
+		.prods1 {
+			width: 100px;
+			padding: 10px;
+			border: 3px solid black;
+			border-radius: 10px;
+			background-color: peachpuff;			
+		}
+
+		.prods2 {
+			width: 100px;
+			padding: 10px;
+			border: 3px solid black;
+			border-radius: 10px;
+			background-color: peachpuff;			
+		}
+
+		.prods3 {
+			width: 100px;
+			padding: 10px;
+			border: 3px solid black;
+			border-radius: 10px;
+			background-color: peachpuff;			
+		}
+
+		.She-toes {
+			display: flex;
+			padding: 70px;
+			justify-content: space-evenly;
+			margin: auto;
+		}
+
+		.She-knows div.Shino:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.She-knows div.Shino2:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.She-knows div.Shino3:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.She-knows div.Shino4:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.She-toes div.Hito:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.She-toes div.Hito2:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.She-toes div.Hito3:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.She-toes div.Hito4:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.She-toes div.Hito5:hover {
+			opacity: 0.5;
+			color: skyblue;
+		}
+
+		.productCOV {
+			background-color: beige;
+		}
+
+		.bestseller1 div.Price:hover {
+			color: green;
+			background-color: green;
+		}
+
+		.She-toes div.prodbar:hover {
+			color: green;
+			background-color: green;
+		}
+
+		.She-knows div.prodbar:hover {
+			color: green;
+			background-color: green;
+		}
+
+
+		.header2 {
+			text-align: center;
+		}
+
+		.sign {
+			background-color: beige;
+			border: 5px solid floralwhite;
+			padding: 200px;
+			font-size: 20px;
+			text-align: left;
+
+		}
+
+		.field1 {
+			background-color: lightblue;
+			border: 4px solid black;
+		}
+
+		.field2 {
+			background-color: lightblue;
+			border: 4px solid black;
+		}
+
+		.L1 {
+			border: 2px solid black;
+			border-radius: 5px;
+			background-color: lightskyblue;
+		}
+
+		.L2 {
+			border: 2px solid black;
+			border-radius: 5px;
+			background-color: lightskyblue;
+		}
+
+
+		.button1 {
+			padding-top: 5px;
+			padding-bottom: 5x;
+			padding-left: 50px;
+			padding-right: 50px;
+			background-color: whitesmoke;
+			margin-bottom: 20px;
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+
+		.button2 {
+			padding-top: 5px;
+			padding-bottom: 5x;
+			padding-left: 50px;
+			padding-right: 50px;
+			background-color: whitesmoke;
+			margin-bottom: 20px;
+			margin-left: 10px;
+		}
+
+		
+
+	</style>
+
+
+
+
+</head>
+<body>
+
+	<!-- Sec 1: header -->
+	<div class="navbar">
+		<img src="LOGO.png" class="Logo">
+	
+		<div class="c1">
+			<a href="#BSL" class="a1"> Best seller </a> 
+		</div>
+		
+		<div class="c2">		
+			<a href="#prodie" class="a2"> Other Products </a> 
+		</div>
+			
+		<div class="c3">
+			<a href="#sign-in" class="a3">Login </a> 
+		</div>
+			
+		<div class="c4">
+			<a href="#sign-in" class="a4">Sign up </a> 
+		</div>
+		
+	
+	</div>
+
+	<hr class="hr1">
+	<!-- Sec 2: Hero-->
+	<div class="hero">
+		<div class="hero1">
+			<h1> ｡𖦹B</h1>			
+		</div>
+		<div class="hero2">
+			<h1> ｡𖦹O</h1>					
+		</div>
+		<div class="hero3">
+			<h1> ｡𖦹O𖦹｡</h1>										
+		</div>
+		<div class="hero4">
+			<h1> K𖦹｡</h1>					
+		</div>
+		<div class="hero4">
+			<h1> S𖦹｡</h1>					
+		</div>
+
+	</div>
+
+	<hr class="hr1">
+	<!-- Sec 3: Best seller images -->
+	<div class="bestseller" id="BSL">
+		<div class="headercol">
+			<h1 class="header1">₊✩‧₊˚౨ৎ˚₊✩‧₊ BEST SELLERS ₊✩‧₊˚౨ৎ˚₊✩‧₊</h1>
+
+			<hr class="hr1">
+		</div>
+		<!-- <div class="bestsellercolumns"> -->
+<!-- 			<div class="column-left"> 
+				<img src="https://marketplace.canva.com/EAF6QJy73aY/2/0/1600w/canva-orange-and-cream-free-delivery-instagram-post-aNP8VPZCeoI.jpg" class="Col1">
+
+
+
+
+
+
+				x</div> -->
+			<div class="bestseller1">
+				<div class="Caser">
+						<img src="https://m.media-amazon.com/images/I/71yFafkcpmL._SY522_.jpg"class="img1">
+						<div class="Price"> <strong class="Price1">
+								P899 </strong>
+						</div>
+
+				</div>
+
+				<div class="Caser2">
+						<img src="https://m.media-amazon.com/images/I/81ANaVZk5LL._SL1500_.jpg"class="img2">
+						<div class="Price"> <strong class="Price1">
+								P1399 </strong>
+						</div>
+
+				</div>
+					
+				<div class="Caser3">
+						<img src="https://m.media-amazon.com/images/I/61z3UlJoY4L._SY522_.jpg" class="img3">
+						<div class="Price"> <strong class="Price1">
+								P799 </strong>
+						</div>
+
+<!-- 				</div>
+				<div class="column-right"> 
+					<img src="fifty.png" class="col2">
+
+
+
+
+				</div> -->
+			</div>
+		<!-- </div>	 -->
+	</div>
+
+	<hr class="hr1">
+	<!-- Sec 4: Prod cards -->
+	<div class="prod" id="prodie">
+		<div class="prodcut">
+			<h1 class="header1"> ᡣ𐭩 •｡ꪆৎ ˚⋅OUR PRODUCTS⋅ ᡣ𐭩 •｡ꪆৎ ˚</h1>
+
+			<hr class="hr1">
+		</div>
+		<div class="She-knows">
+			<div class="Shino">
+				<img src="https://m.media-amazon.com/images/I/71oO1E-XPuL._AC_UF894,1000_QL80_.jpg" class="prods">			
+				<div class="prodbar"> <strong class="Price1"> P1999 </strong> </div>
+
+
+			</div>
+
+			<div class="Shino2">
+				<img src="https://mpd-biblio-covers.imgix.net/9781250044662.jpg" class="prods1">			 
+				<div class="prodbar"> <strong class="Price1"> P1899 </strong> </div>
+
+
+			</div>
+
+			<div class="Shino3">
+				<img src="https://i0.wp.com/thebookview.com/wp-content/uploads/2022/06/spanish-love-deception.png?fit=1600%2C2560&ssl=1" class="prods2">			 
+				<div class="prodbar"> <strong class="Price1"> P799 </strong> </div>
+
+
+			</div>
+
+			<div class="Shino4">
+				<img src="https://m.media-amazon.com/images/I/71OYlAzeeRL._AC_UF1000,1000_QL80_.jpg" class="prods3">			 
+				<div class="prodbar"> <strong class="Price1"> P699 </strong> </div>
+
+
+			</div>
+		</div>
+
+
+		<div class="She-toes">
+
+			<div class="Hito">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvArkqYX41a4iKJBjt4aa19pxO31tTZmTFhA&s" class="prods">			
+				<div class="prodbar"> <strong class="Price1"> P799 </strong> </div>
+			</div>
+
+			<div class="Hito2">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ_rSsBmvdABm8TPuLdOhb0uqJ-Yk-j4N3YQ&s" class="prods1">			 
+				<div class="prodbar"> <strong class="Price1"> P1299 </strong> </div>
+			</div>
+
+			<div class="Hito3">
+				<img src="https://cdn.kobo.com/book-images/6963d990-cef3-4c05-8709-a6e79c4a0967/1200/1200/False/no-longer-human.jpg" class="prods2">	 
+				<div class="prodbar"> <strong class="Price1"> P999 </strong> </div>
+			</div>
+
+			<div class="Hito4">
+				<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618150545l/55710822.jpg" class="prods3">			 
+				<div class="prodbar"> <strong class="Price1"> P699 </strong> </div>
+			</div>
+			
+			<div class="Hito5">
+				<img src="https://cdn.kobo.com/book-images/69327895-ab7d-45e0-a8a2-7956cf72091a/353/569/90/False/diary-of-a-wimpy-kid-diary-of-a-wimpy-kid-1.jpg" class="prods3">			 
+				<div class="prodbar"> <strong class="Price1"> P1599 </strong> </div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<hr class="hr1">
+	<!-- Sign up form -->
+,
+	<div class="sign" id="sign-in">
+
+		<h2>✮ ⋆ ˚｡𖦹 ⋆｡°✩ Registration / Log-in ✮ ⋆ ˚｡𖦹 ⋆｡°✩</h2>
+
+		<fieldset class="field1">
+			<legend class="L1"> LOGIN </legend>
+
+			<form>
+
+				<label>
+						
+					Username:
+
+				</label>
+					
+				<br/>
+					
+				<input type="text" id="u-name" name="UID" placeholder="Username"> 
+					
+				<br/>
+
+
+
+				<label class="Cos">
+						
+						Password:
+
+				</label>
+
+				<br/>
+
+				<input type="password" id="password" name="pass" placeholder="Password"> 
+					
+				<br/>
+
+				<input type="submit" value="Login" class="button1">
+
+
+			</form>
+
+		</fieldset>
+
+		<br/>
+
+		<hr class="hr1">
+
+		<br/>
+
+		<fieldset class="field2"> 
+			<legend class="L2"> SIGN-UP </legend>
+			<form>
+
+
+				<label>
+						
+					Username:
+
+				</label>
+					
+				<br/>
+					
+				<input type="text" id="u-name" name="UID" placeholder="New User"> 
+					
+				<br/>
+
+
+
+				<label class="Cos">
+						
+						 New Password:
+
+				</label>
+
+				<br/>
+
+				<input type="password" id="password" name="pass" placeholder="Password"> 
+					
+				<br/>
+
+							<label class="Cos">
+						
+						Email:
+
+				</label>
+
+				<br/>
+
+				<input type="Email" id="password" name="pass" placeholder="Enter Email"> 
+					
+				<br/>
+
+				<br/>
+
+
+
+				<input type="submit" value="Sign-up" class="button2">
+
+
+			</form>
+		</fieldset>
+	</div>
+
+	<!-- Login Form -->
+
+
+
+</body>
+</html>
